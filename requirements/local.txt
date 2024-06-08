@@ -1,0 +1,6 @@
+-r testing.txt
+
+bump-my-version==0.21.1
+tox==4.15.1
+tox-uv==1.9.0
+Willow<2.0
