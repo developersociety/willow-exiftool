@@ -1,8 +1,8 @@
-build==1.2.1
-check-wheel-contents==0.6.0
-coverage==7.5.3
-mypy==1.10.0
-pipdeptree==2.22.0
-pytest==8.2.2
-ruff==0.4.8
-twine==5.1.0
+build==1.2.2.post1
+check-wheel-contents==0.6.1
+coverage==7.6.9
+mypy==1.13.0
+pipdeptree==2.24.0
+pytest==8.3.4
+ruff==0.8.3
+twine==6.0.1

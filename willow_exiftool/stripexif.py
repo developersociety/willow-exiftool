@@ -3,8 +3,8 @@ from typing import ClassVar
 from willow.optimizers.base import OptimizerBase
 
 __all__ = [
-    "ExifToolBase",
     "ExifToolAVIF",
+    "ExifToolBase",
     "ExifToolHEIC",
     "ExifToolJPEG",
     "ExifToolPNG",
