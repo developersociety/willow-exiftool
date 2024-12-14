@@ -1,4 +1,4 @@
-from typing import ClassVar, List
+from typing import ClassVar
 
 from willow.optimizers.base import OptimizerBase
 
@@ -19,7 +19,7 @@ class ExifToolBase(OptimizerBase):
         abstract = True
 
     @classmethod
-    def get_command_arguments(cls, file_path: str, progressive: bool = False) -> List[str]:
+    def get_command_arguments(cls, file_path: str, progressive: bool = False) -> list[str]:
         return [
             "-EXIF=",  # strip all Exif data
             "-overwrite_original",  # don't create an _original file

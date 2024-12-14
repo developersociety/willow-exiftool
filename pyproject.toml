@@ -4,7 +4,7 @@ version = '0.1'
 description = 'ExifTool optimizer for Willow'
 readme = 'README.md'
 maintainers = [{ name = 'The Developer Society', email = 'studio@dev.ngo' }]
-requires-python = '>= 3.8'
+requires-python = '>= 3.9'
 dependencies = [
     'Willow>=1.6.0',
 ]
@@ -14,7 +14,6 @@ classifiers = [
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
@@ -36,7 +35,7 @@ include = ['willow_exiftool*']
 
 [tool.ruff]
 line-length = 99
-target-version = 'py38'
+target-version = 'py39'
 
 [tool.ruff.lint]
 select = [
