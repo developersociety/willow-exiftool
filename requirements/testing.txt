@@ -4,5 +4,5 @@ coverage==7.13.3
 mypy==1.19.1
 pipdeptree==2.30.0
 pytest==9.0.2
-ruff==0.8.3
+ruff==0.15.0
 twine==6.2.0
