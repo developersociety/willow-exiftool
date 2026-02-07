@@ -6,7 +6,7 @@ readme = 'README.md'
 maintainers = [{ name = 'The Developer Society', email = 'studio@dev.ngo' }]
 requires-python = '>= 3.10'
 dependencies = [
-    'Willow>=1.6.0',
+    'Willow>=1.11.0',
 ]
 classifiers = [
     'Intended Audience :: Developers',
@@ -18,6 +18,7 @@ classifiers = [
     'Programming Language :: Python :: 3.11',
     'Programming Language :: Python :: 3.12',
     'Programming Language :: Python :: 3.13',
+    'Programming Language :: Python :: 3.14',
 ]
 
 [project.urls]
